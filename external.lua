@@ -3,7 +3,7 @@ package("libprim")
     set_description("The libprim package")
 
     add_urls("https://github.com/Xyfuture/libprim.git")
-    add_versions("1.0", "bcd95c3")
+    add_versions("1.0", "07b3593")
 
     on_install(function (package)
         local configs = {}

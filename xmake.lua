@@ -1,6 +1,8 @@
 includes("external.lua")
-
 add_requires("libprim")
+
+
+set_config("toolchain","gcc")
 
 target("librnd")
     set_kind("static")
