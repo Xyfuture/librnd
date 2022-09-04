@@ -1,5 +1,5 @@
 includes("external.lua")
-add_requires("libprim")
+add_requires("libprim main",{debug=true})
 
 
 set_config("toolchain","gcc")
