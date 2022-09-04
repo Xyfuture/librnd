@@ -1,4 +1,8 @@
 includes("external.lua")
+
+
+set_policy("package.include_external_headers", false)
+
 add_requires("libprim main",{debug=true})
 
 
