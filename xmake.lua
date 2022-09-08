@@ -3,7 +3,7 @@ includes("external.lua")
 
 set_policy("package.include_external_headers", false)
 
-add_rules("mode.debug","mode.releasae")
+add_rules("mode.debug","mode.release")
 
 add_requires("libprim main",{debug=true})
 
